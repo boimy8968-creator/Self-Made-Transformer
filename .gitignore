@@ -1,0 +1,120 @@
+# ==============================================================================
+# CMake & Build Output Directories
+# ==============================================================================
+cmake/
+build/
+bin/
+out/
+dist/
+install/
+_deps/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+cmake-build-*/
+*.ninja
+.ninja_*
+ninja.log
+
+# ==============================================================================
+# Windows Compiled Artifacts & Visual Studio Files
+# ==============================================================================
+*.exe
+*.obj
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.dll
+*.def
+*.manifest
+*.res
+*.idb
+*.tlog
+
+# Visual Studio / MSVC IDE Directories & Cache
+.vs/
+*.suo
+*.user
+*.userosv
+*.sln.docstates
+*.opensdf
+*.sdf
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# ==============================================================================
+# Linux & Unix Compiled Artifacts & Shared Objects
+# ==============================================================================
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.bundle
+*.out
+*.app
+
+# ==============================================================================
+# CUDA & NVCC Intermediate Build Artifacts
+# ==============================================================================
+tmpxft_*
+*.cudafe1.*
+*.cudafe2.*
+*.fatbin
+*.fatbin.c
+*.fatbin.cpp
+*.module_id
+*.ptx
+*.cubin
+*.device-link.obj
+cmake_device_link.obj
+__nvprof_*
+*.nvvp
+*.qdrep
+*.qdstrm
+
+# ==============================================================================
+# Machine Learning Data, Datasets, Checkpoints & Weights
+# ==============================================================================
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.weights
+*.checkpoint
+model_ckpt.bin
+data/*.bin
+data/*.tar
+data/*.tar.gz
+data/*.zip
+data/TinyStories*.txt
+data/train*.txt
+data/test*.txt
+!data/vocab.txt
+
+# ==============================================================================
+# IDEs, Editors & Tooling
+# ==============================================================================
+.vscode/
+.idea/
+.clangd/
+.cache/
+*.swp
+*.swo
+*~
+*.bak
+.DS_Store
+Thumbs.db
